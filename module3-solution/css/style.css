@@ -1,0 +1,71 @@
+
+body{
+    font-size: 16px;
+}
+
+hr{
+    width: 90%;
+    margin: 0 auto;
+}
+h3{
+    width: 100%;
+}
+.navbar{
+    background-color: gray;
+    height: 80px;
+}
+.navbar .navbar-brand{
+    font-size: 1.5em;
+    color: #fff;
+}
+
+
+.nav-item{
+    margin: 0 auto;
+    font-size: 1.2em;
+}
+ 
+.navbar-nav{
+    display: none;
+    position: relative;
+    top: 30px;
+}
+
+.main-content{
+    position: relative;
+    top: 150px;
+}
+
+
+
+/********Large Devices only *******/
+@media(min-width:1200px){
+    .main-content{
+        position: relative;
+        top: 20px;
+    }
+
+}
+/********Medium Devices only *******/
+@media(min-width: 992px) and (max-width:1199px){
+    .main-content{
+        position: relative;
+        top: 20px;
+    }
+}
+/********small Devices only *******/
+@media(min-width:768px) and (max-width:991px){
+    .main-content{
+        position: relative;
+        top: 20px;
+    }
+}
+@media(max-width:767px){
+  
+}
+
+@media(max-width:575px){
+    .navbar-nav{
+        display: flex;
+    }
+}
